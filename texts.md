@@ -12,15 +12,20 @@ Learn more
 
 Description block: 
 
-The main problem with education
+<div class="two-columns">
 
-Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing information so that when exam time comes around, we pass the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be retained. In the end, we're really just learning how to pass our tests. 
+<div class="two-columns__brief> The main problem with education </div>
 
-Here's the real question: does this approach of repetition and memorization help us truly understand the subject material? The academic consensus nowadays is that it doesn't. In fact, what's more important than any individual topic is knowing how to study, but for some reason, this point is often overlooked. So, what can we do to remedy this?
+<div class="two-columns__main-text">
 
-Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.
+<p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing information so that when exam time comes around, we pass the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be retained. In the end, we're really just learning how to pass our tests. </p>
 
----
+<p class="two-columns__paragraph"><span class="two-columns__span-accent">Here's the real question:</span> does this approach of repetition and memorization help us truly understand the subject material? The academic consensus nowadays is that it doesn't. In fact, what's more important than any individual topic is knowing how to study, but for some reason, this point is often overlooked. So, what can we do to remedy this?</p>
+
+<p class="two-columns__paragraph">Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.</p>
+
+</div>
+</div>
 
 Digits block: 
 
@@ -97,4 +102,4 @@ Professions
 
 Social media
 
-(c) 2021 Your name
+(c) 2021 Michelle M. Lane
