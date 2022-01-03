@@ -279,8 +279,6 @@ li {
 }
 
 .footer__columns {
-  margin-top: 60px;
-  margin-bottom: 40px;
   display: flex;
   flex-basis: 711px;
   width: 90%;
@@ -308,6 +306,7 @@ li {
 }
 
 .footer__column-heading {
+  margin-top: 60px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
