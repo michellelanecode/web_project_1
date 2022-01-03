@@ -10,8 +10,6 @@
   background-color: #f2f2f2;
 }
 
-
-
 a {
   color: #2f80ed;
   text-decoration: none;
@@ -142,11 +140,13 @@ li {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .table__cell {
   width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .table__text {
@@ -285,7 +285,7 @@ li {
   min-height: 350px;
   display: flex;
   flex-direction: column;
-gap: 340px;
+  gap: 340px;
 }
 
 .logo_place_footer {
