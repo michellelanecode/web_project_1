@@ -7,19 +7,10 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #f2f2f2;
-}
-
-a {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
 }
 
 .header {
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -36,18 +27,17 @@ li {
   background-color: #2f80ed;
   top: 64px;
   right: 0;
+  z-index: 0;
 }
 
-.logo {
-  margin-left: 64px;
-  margin-top: 30px;
+.logo_place_header {
+  left: 64px;
+  top: 30px;
   position: absolute;
   z-index: 1;
 }
 
 .header__title {
-  display: flex;
-  align-items: center;
   margin-left: 64px;
   width: 730px;
   line-height: 96px;
@@ -78,8 +68,7 @@ li {
   display: flex;
   justify-content: center;
   margin: 100px auto 100px;
-  width: 80%;
-  min-width: 784px;
+
 }
 
 .two-columns__brief {
@@ -92,7 +81,8 @@ li {
 }
 
 .two-columns__main-text {
-  align-items: space-between;
+  min-width: 784px;
+  width: 80%;
 }
 
 .two-columns__paragraph {
@@ -100,6 +90,10 @@ li {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.two-columns__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -110,9 +104,12 @@ li {
 
 /* digits styles */
 
+.digits {
+  margin: 100px auto 20px;
+}
+
 .section-title {
   width: 60%;
-  margin: 100px auto 20px;
   text-align: center;
   line-height: 69px;
   font-size: 60px;
@@ -130,10 +127,9 @@ li {
 
 .table {
   width: 1100px;
-  margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .table__heading {
@@ -158,8 +154,9 @@ li {
 /*feynman styles */
 
 .feynman {
+  background-color: #f2f2f2;
   position: relative;
-  height: 790px;
+  min-height: 790px;
   text-align: center;
   margin-top: 100px;
 }
@@ -192,7 +189,7 @@ li {
 
 .feynman__link {
   position: absolute;
-  height: 50%;
+  top: 50%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -220,7 +217,13 @@ li {
   margin-top: 80px;
 }
 
-.section-title_theme_dark,
+.section-title_theme_dark {
+  color: white;
+  width: 60%;
+  position: relative;
+  z-index: 1;
+
+}
 .section-subtitle_theme_dark {
   color: white;
   width: 60%;
@@ -263,7 +266,7 @@ li {
   height: 636px;
   position: absolute;
   top: 0;
-  left: 1124px;
+  right: 1124px;
 }
 
 /* footer styles */
@@ -286,7 +289,6 @@ li {
   min-height: 350px;
   display: flex;
   flex-direction: column;
-  gap: 340px;
 }
 
 .logo_place_footer {
