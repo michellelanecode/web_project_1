@@ -176,7 +176,6 @@
 /*feynman styles */
 
 .feynman {
-  padding-top: 100px;
   background-color: #f2f2f2;
   position: relative;
   min-height: 790px;
@@ -192,6 +191,7 @@
 }
 
 .feynman__title {
+  padding-top: 100px;
   width: 775px;
   line-height: 1.15;
   font-size: 120px;
