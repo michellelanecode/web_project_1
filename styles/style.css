@@ -16,7 +16,7 @@
   max-height: 756px;
   display: flex;
   position: relative;
-  z-index: 0;
+  z-index: 3;
   /* parameters for the header section */
 }
 
