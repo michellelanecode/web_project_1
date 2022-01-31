@@ -1,0 +1,10 @@
+
+.kaufman__triangle {
+    margin: 0 auto;
+    width: 660px;
+    height: 636px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: -124px;
+}
