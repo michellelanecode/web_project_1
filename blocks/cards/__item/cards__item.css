@@ -1,3 +1,11 @@
 .cards__item {
+width: 240px;
+}
 
+.cards__item:last-child {
+margin: 0px;
+margin-top: 60px;
+width: 240px;
+display: flex;
+flex-direction: column;
 }
