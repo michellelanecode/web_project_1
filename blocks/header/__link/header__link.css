@@ -1,6 +1,3 @@
-@import url(/blocks/hover/hover.css);
-@import url(/blocks/rotation/rotation.css);
-
 .header__link {
     color: #2f80ed;
     text-decoration: none;
