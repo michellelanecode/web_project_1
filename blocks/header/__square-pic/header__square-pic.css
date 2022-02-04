@@ -7,5 +7,4 @@
     right: 0;
     z-index: -2;
     transform: rotate(-15deg);
-    animation: rotationCounterclockwise 20s linear infinite;
 }

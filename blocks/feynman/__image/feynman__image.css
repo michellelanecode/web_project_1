@@ -1,5 +1,5 @@
 .feynman__image {
-    width: 867px;
+    max-width: 867px;
     height: 637px;
     position: absolute;
     bottom: 0;
