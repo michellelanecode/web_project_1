@@ -5,10 +5,7 @@ transform:rotate(360deg);
 }
 
 
-.header__square-pic {
+.rotation{
   animation: rotationClockwise 20s linear infinite;
 }
 
-.kaufman__triangle {
- animation: rotationClockwise 20s linear infinite;
-}
